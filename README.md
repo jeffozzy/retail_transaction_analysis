@@ -38,15 +38,15 @@ Ethical considerations
 
 Unfixed Bugs
 
-    I could not effectively calculate the elasticity of price on a month to month basis. 
     Time was the biggest factor in this as the timeframe I was given was not enough for this analysis.
-    I indetified economics gaps in my knowlegd and will have to go read up on economics theories again.
+    I indetified economics gaps in my knowlegde and will have to go read up on economics theories again.
 
     
 
 Development Roadmap
 
     Challenges i faced included not grapsping enough knowledge of maniplulating a large dataset 
+    I was not Satisfied with the cleaning of my data
     I plan to spend more time reading about Pandas and Numpy as well as ecomics theories
     
 
@@ -63,7 +63,7 @@ Main Data Analysis Libraries
 
 Credits
 
-    
+
 
 
 Acknowledgements (optional)
