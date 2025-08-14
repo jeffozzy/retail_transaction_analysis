@@ -1,72 +1,71 @@
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Project Online Retail store
 
-## Template Instructions
+Online Retail store is a project to analyze sales over two years from a retail store. The analysis is done to understand the situation, Optimize pricing and inform marketing decisions.
+Dataset Content
 
-Welcome,
+    The "Online Retail Transaction" dataset records customer purchases made through an online retail platform. It captures details such as the products bought, the quantity purchased, the transaction date and time, the price of each item, the unique customer identifier, and the country of the customer’s location.
 
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+Business Requirements
 
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+    To get insights for price Optmization and marketing strategies
 
-## How to use this repo
+Hypothesis and how to validate?
 
-1. Use this template to create your GitHub project repo. Click the **Use this template** button, then click **Create a new repository**.
+    Price can be amended according to elasticicty to optimize pricing and marketing can be focused on country to country basis. To do these I will calculate elasticity to see what products we can reduce the prices and what products we can increase price. for 
 
-1. Copy the URL of your repository to your clipboard.
+Project Plan
 
-1. In VS Code, select **File** -> **Open Folder**.
+    First I will load the dataset and do basic analysis to understand the dataset.
+    Calculate pricing elasticty and identify key value items
+    I made a copy of the original datset to preserve the integrity of the dataset
+    Why did you choose the research methodologies you used?
 
-1. Select your `vscode-projects` folder, then click the **Select Folder** button on Windows, or the **Open** button on Mac.
+The rationale to map the business requirements to the Data Visualisations
 
-1. From the top menu in VS Code, select **Terminal** > **New Terminal** to open the terminal.
+    To explain to stakeholders in a way they can easily understand
 
-1. In the terminal, type `git clone` followed by the URL of your GitHub repository. Then hit **Enter**. This command will download all the files in your GitHub repository into your vscode-projects folder.
+Analysis techniques used
 
-1. In VS Code, select **File** > **Open Folder** again.
+    List the data analysis methods used and explain limitations or alternative approaches.
+    How did you structure the data analysis techniques. Justify your response.
+    Did the data limit you, and did you use an alternative approach to meet these challenges?
+    How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
-1. This time, navigate to and select the folder for the project you just downloaded. Then, click **Select Folder**.
+Ethical considerations
 
-1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
-Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select **Command Palette** to open the VS Code command palette.
+    There were none as this is not an actual business dataset, it is Hypothethical as was obtained from Kaggle
 
-1. In the command palette, type: *create environment* and select **Python: Create Environment…**
 
-1. Choose **Venv** from the dropdown list.
+Unfixed Bugs
 
-1. Choose the Python version you installed earlier. Currently, we recommend Python 3.12.8
+    I could not effectively calculate the elasticity of price on a month to month basis. 
+    Time was the biggest factor in this as the timeframe I was given was not enough for this analysis.
+    I indetified economics gaps in my knowlegd and will have to go read up on economics theories again.
 
-1. **DO NOT** click the box next to `requirements.txt`, as you need to do more steps before you can install your dependencies. Click **OK**.
+    
 
-1. You will see a `.venv` folder appear in the file explorer pane to show that the virtual environment has been created.
+Development Roadmap
 
-1. **Important**: Note that the `.venv` folder is in the `.gitignore` file so that Git won't track it.
+    Challenges i faced included not grapsping enough knowledge of maniplulating a large dataset 
+    I plan to spend more time reading about Pandas and Numpy as well as ecomics theories
+    
 
-1. Return to the terminal by clicking on the TERMINAL tab, or click on the **Terminal** menu and choose **New Terminal** if no terminal is currently open.
 
-1. In the terminal, use the command below to install your dependencies. This may take several minutes.
 
- ```console
- pip3 install -r requirements.txt
- ```
 
-1. Open the `jupyter_notebooks` directory, and click on the notebook you want to open.
+Main Data Analysis Libraries
 
-1. Click the **kernel** button and choose **Python Environments**.
+    Matplotlib.pyplot as plt ---> Used this to plpt chats
+    Pandas  ----> used this for Data Analysis
+    Numpy  ----> used this for Data Analysis
+    Pipleline  ---> used this for handling missing values
+    
 
-Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it will be Python-3.12.8 if that is what is installed on your PC. To confirm this, you can use the command below in a notebook code cell.
+Credits
 
-```console
-! python --version
-```
+    
 
-## Deployment Reminders
 
-* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
-* The project can be deployed to Heroku using the following steps.
+Acknowledgements (optional)
 
-1. Log in to Heroku and create an App
-2. At the **Deploy** tab, select **GitHub** as the deployment method.
-3. Select your repository name and click **Search**. Once it is found, click **Connect**.
-4. Select the branch you want to deploy, then click **Deploy Branch**.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button **Open App** at the top of the page to access your App.
-6. If the slug size is too large, then add large files not required for the app to the `.slugignore` file.
+    I want to thank the Code Institute team, Vasi, Mike, Niel and Roman. 
